@@ -1,0 +1,77 @@
+/* General styles */
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Tangerine', serif;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.navbar-brand {
+    font-size: 1.8em;
+    color: #007bff !important;
+}
+
+.navbar-nav .nav-item .nav-link {
+    font-size: 1.2em;
+    color: #007bff !important;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+    color: #0056b3 !important;
+}
+
+.navbar-nav .nav-item .dropdown-menu {
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+/* Button styles */
+.btn-outline-primary {
+    color: #007bff;
+    border-color: #007bff;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+.btn-outline-success {
+    color: #28a745;
+    border-color: #28a745;
+}
+
+.btn-outline-success:hover {
+    background-color: #28a745;
+    color: #fff;
+}
+
+/* Custom styles */
+.custom-container {
+    background: rgba(255, 255, 255, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 20px;
+}
+
+.footer {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px 0;
+    text-align: center;
+    color: #555;
+}
+
+/* Mobile styles */
+@media (max-width: 768px) {
+    .navbar-brand {
+        font-size: 1.5em;
+    }
+
+    .navbar-nav .nav-item .nav-link {
+        font-size: 1em;
+    }
+}

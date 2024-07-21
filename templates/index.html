@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+
+{% block content %}
+    {{ super() }}
+
+    <!-- Direct path to the CSS file -->
+    <link rel="stylesheet" href="/static/css/extended_beauty.css">
+
+    <h1>Home Page</h1>
+
+    <h6>Hello!!</h6>
+    <div style="text-align: center;">
+        <!-- Direct path to the image file -->
+        <img src="/static/images/pushups.jpeg" alt="Pushups">
+    </div>
+
+    <p>Welcome to PushUps logger<br/>This website implements basic CRUD functionality and user authentication features using Flask.</p>
+{% endblock %}
